@@ -1,0 +1,7 @@
+<view class="box">
+  <view class='title'>电科19-2杜一新彩票双色球随机数</view>
+  <view>产生的彩票数列为：</view>
+  <view>（前六位为红球号码，最后一位为蓝球号码）</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type='primary' bindtap='newRand'>产生新的彩票数组</button>
+</view>
