@@ -1,0 +1,10 @@
+<!--pages/kj/ForAndSum/index.wxml-->
+<view class='box'>
+  <view class='title'>电科19-2杜一新复利计算器</view>
+  <view>
+    <input placeholder='请输入本金' type='number' bindblur='principal'></input>
+    <input placeholder='请输入利率（如年利率3%即输入0.03）' type='number' bindblur='rate'></input>
+  </view>
+  <view>五年后本息和为：{{sum}} </view>
+  <button type='primary' bindtap='calc'>求本息和</button>
+</view>
