@@ -1,8 +1,2 @@
-# 微信小程序作业
-本科微信小程序作业
-
-
-本科山东科技大学智能装备学院，微信小程序老师魏光村副教授
-
-
-直接使用官方的小程序开发程序打开项目即可
+# WeiChat_MiniApp Homework 
+Associate Professor Wei Guangcun, WeChat_MiniApp teacher, college of Intelligent Equipment, Shandong University of Science and Technology
