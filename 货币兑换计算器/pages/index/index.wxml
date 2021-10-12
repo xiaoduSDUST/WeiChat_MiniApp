@@ -1,0 +1,25 @@
+<!--pages/zj/CurrencyExchange/index.wxml-->
+<view class='box'>
+  <view class='title'>电科19-2杜一新货币兑换</view>
+  <form bindsubmit='calc' bindreset='reset'>
+    <input name='cels' placeholder='请输入人民币金额' type='number' auto-focus='true'></input>
+    <input name='dollar' placeholder='请输入美元汇率' type='number' auto-focus='true'></input>
+    <input name='pounds' placeholder='请输入英镑汇率' type='number' auto-focus='true'></input>
+    <input name='hangkong' placeholder='请输入港币汇率' type='number' auto-focus='true'></input>
+    <input name='euro' placeholder='请输入欧元汇率' type='number' auto-focus='true'></input>
+    <input name='won' placeholder='请输入韩元汇率' type='number' auto-focus='true'></input>
+    <input name='yen' placeholder='请输入日元汇率' type='number' auto-focus='true'></input>
+    <view class='btnLayout'>
+      <button type='primary' form-type='submit'>计算</button>
+      <button type='primary' form-type='reset'>清除</button>
+    </view>
+    <view class='textLayout'>
+      <text>兑换美元为：{{M}}</text>
+      <text>兑换英镑为：{{Y}}</text>
+      <text>兑换港币为：{{G}}</text>
+      <text>兑换欧元为：{{O}}</text>
+      <text>兑换韩元为：{{H}}</text>
+      <text>兑换日元为：{{R}}</text>
+    </view>
+  </form>
+</view>
