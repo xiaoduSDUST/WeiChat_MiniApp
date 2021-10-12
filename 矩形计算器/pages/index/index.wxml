@@ -1,0 +1,12 @@
+<view class="box">
+  <view class='title'>电科19-2杜一新矩形面积计算器</view>
+  <form bindsubmit="formSubmit">
+    输入矩形的长和宽：
+    <input type="digit" placeholder='长' name='a' value='{{a}}' />
+    <input type="digit" placeholder='宽' name='b' value='{{b}}' />
+    <button form-type='submit'>计算</button>
+  </form>
+  <view class="res"><text>矩形的面积为：{{result1}}</text>
+  <text>矩形的周长为：{{result2}}</text></view>
+  
+</view>
